@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/nikita/AndroidStudioProjects/MapFactorTracker/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/Users/nikita/AndroidStudioProjects/MapFactorTracker/app/build/intermediates/pre-dexed/debug/classes-c6bc3c598de1a709f15db7e5e7b31076216e04d8.jar" />
+    </item>
+    <item
+        jar="/Users/nikita/AndroidStudioProjects/MapFactorTracker/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="/Users/nikita/AndroidStudioProjects/MapFactorTracker/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-c5eec4effea6f47287b32154a1d35bbd32347903.jar" />
+    </item>
+    <item
+        jar="/Users/nikita/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="/Users/nikita/AndroidStudioProjects/MapFactorTracker/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-5e15be23cf75cee7b723f29fa7994691b071425c.jar" />
+    </item>
+
+</items>

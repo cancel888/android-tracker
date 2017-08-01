@@ -1,0 +1,88 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="10dp"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="31dp"
+        android:layout_marginTop="30dp"
+        android:text="Tracking On/Off"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <ToggleButton
+        android:id="@+id/TrackButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:layout_marginLeft="31dp"
+        android:maxLines="100"
+        android:onClick="toggleTracker"
+        android:text="ToggleButton"
+        android:textOff="OFF"
+        android:textOn="ON" />
+
+    <ToggleButton
+        android:id="@+id/PitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/statusView"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="42dp"
+        android:text="ToggleButton" />
+
+    <TextView
+        android:id="@+id/statusView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/TrackButton"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="fill"
+        android:gravity="left"
+        android:paddingLeft="10dp"
+        android:paddingRight="0dp"
+        android:text="Status:"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView1"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_alignLeft="@+id/PitButton"
+        android:text="Pit Stop"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/statusView"
+    android:fillViewport="true"
+    >
+	
+    <TextView
+        android:id="@+id/LogView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:layout_gravity="bottom"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:scrollbarStyle="insideInset"
+        android:scrollbars="vertical"
+        android:padding="15dp"
+        android:text="Log Information" />
+</ScrollView>
+    
+</RelativeLayout><!-- From: file:/Users/nikita/AndroidStudioProjects/MapFactorTracker/app/src/main/res/layout/activity_main.xml -->
